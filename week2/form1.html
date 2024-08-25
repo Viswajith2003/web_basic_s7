@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- Grouped inputs in fieldset for better alignment -->
+
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-block; width: 100px">First Name:</label>
+        <input type="text" />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-table; width: 100px">Middle Name:</label>
+        <input type="text" />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-table; width: 100px">Last Name:</label>
+        <input type="text" />
+      </div>
+
+      <!-- Gender radio buttons with proper grouping and alignment -->
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-block; width: 100px">Gender:</label>
+        <div style="margin-left: 100px">
+          <input type="radio" name="gender" /> Male <br />
+          <input type="radio" name="gender" /> Female <br />
+          <input type="radio" name="gender" /> Other <br />
+        </div>
+      </div>
+
+      <!-- Phone number field with label and input alignment -->
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-block; width: 100px">Phone:</label>
+
+        <input type="number" placeholder="+91" />
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <label style="display: inline-block; width: 100px;">Course:</label>
+        <select>
+          <option value="course1">Course 1</option>
+          <option value="course2">Course 2</option>
+          <option value="course3">Course 3</option>
+          <option value="course4">Course 4</option>
+        </select>
+      </div>
+
+      <!-- Address textarea with label alignment -->
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-block; width: 100px; vertical-align: top"
+          >Address:</label
+        >
+        <textarea name="address" rows="5" cols="22"></textarea>
+      </div>
+
+      <!-- Email field with label alignment -->
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-block; width: 100px">Email:</label>
+        <input type="email" />
+      </div>
+
+      <!-- Password and re-type password fields with label alignment -->
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-block; width: 100px">Password:</label>
+        <input type="password" />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label style="display: inline-block; width: 100px"
+          >Re-type Password:</label
+        >
+        <input type="password" />
+      </div>
+
+      <!-- Submit button -->
+      <div style="margin-bottom: 10px">
+        <button type="submit" style="padding: 10px; width: 100px; height: 40px">
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
